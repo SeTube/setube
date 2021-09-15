@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    background: #fff;
+    font-family: Helvetica, Arial, PingFangSC-Regular, Microsoft Yahei, sans-serif;
+    font-size: 0.35rem;
+    line-height: 140%;
+    color: #666;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/iconfont.eot?v=0626');
+    src: url('../fonts/iconfont.eot#iefix?v=0626') format('embedded-opentype'),
+    url('../fonts/iconfont.woff2?v=0626') format('woff2'),
+    url('../fonts/iconfont.woff?v=0626') format('woff'),
+    url('../fonts/iconfont.ttf?v=0626') format('truetype'),
+    url('../fonts/iconfont.svg#iconfont?v=0626') format('svg');
+}
+.container {
+    margin-top: 2.5rem !important;
+    padding-bottom: env(safe-area-inset-bottom) !important;
+    width: 100%;
+    position: relative;
+    margin: auto;    
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a:active, .vodlist_item:hover a {
+    color: #111;
+}
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+p {
+    margin: 0;
+}
+em {
+    font-style: normal;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container:before, .container:after, .row:before, .row:after, .clearfix:before, .clearfix:after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+h2 {
+    font-size: 0.5rem;
+    line-height: 0.65rem;
+}
+h2, h3, h4 {
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a, h2, h3, h4 {
+    color: #111;
+}
+::selection {
+    background-color: #e9bd6c;
+    color: #fff;
+}
+a:focus, a:hover, a:active {
+    text-decoration: none;
+    color: #e9bd6c;
+}
+.cblock {
+    display: block;
+    overflow: hidden;
+}
+
+.mycol{
+    color: #e9bd6c;
+}

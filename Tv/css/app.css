@@ -1,0 +1,65 @@
+
+        #playingIframe {
+            height: 56.26667vw;
+        }  
+        a[title="全屏"],.player_video #install,body .van-toast.van-toast--middle.van-toast--text {
+            display: none!important;
+        }
+        @media (min-width: 758px){
+            body {
+                background-color: #eff1f3;
+            } 
+           #app, #topnav,.all_menu[data-v-a829112a]{
+                margin: 0 auto;
+                width: 1000px!important;
+                background-color: #fff;
+            }
+            .am-share {
+                margin: 0 auto;
+                left:auto!important;
+                width: 1000px!important;
+            }
+            .whitebg .logo_b,.details .logo_b {
+                background-image:none!important;
+            }
+            #play_page #topnav {
+                 background-color: #fff!important; 
+            }
+            .details .head_box.details-header-bg {
+                background-color: transparent!important; 
+            }
+            .details .head_box.whitebg .header .head_a,#pinglun,.all_menu_box > ul > li:nth-child(6) {
+                display: none;
+            }
+            .embed-responsive {
+                height: 100%;
+            }
+            .embed-responsive-16by9{
+                padding-bottom: 0;
+            }
+            #playingIframe {
+                height: 696px;
+            }
+            .player .title{
+                color: #333!important;
+            }
+            .player a {
+                color: #888!important;
+            }
+            .player .data a {
+                background: #ebebeb!important;
+            }
+            .player,.pannel {
+                margin: 20px 20px 0 20px!important;
+            }
+            .wrapper_fl.xl {
+                overflow: hidden!important;
+            }
+            .playlist_notfull {
+                overflow: auto;
+                height: 210px;
+            }
+            .playlist_notfull ul {
+                height: auto!important;
+            }
+        } 
