@@ -2,7 +2,7 @@
         #playingIframe {
             height: 56.26667vw;
         }  
-        a[title="全屏"],.player_video #install,body .van-toast.van-toast--middle.van-toast--text {
+        .whitebg .logo_b[data-v-a829112a],a[title="全屏"],.player_video #install,body .van-toast.van-toast--middle.van-toast--text {
             display: none!important;
         }
         @media (min-width: 758px){
