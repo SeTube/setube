@@ -1,4 +1,4 @@
-body{
+body,.artalk>.artalk-list>.artalk-list-body>.artalk-list-read-more:hover{
    background-color: #030303 !important;
 }
 h2,h5,p{
@@ -34,7 +34,7 @@ h2,h5,p{
 .van-tabs__line{
     background-color:#bd5977;
 }
-.artalk>.artalk-list>.artalk-list-body>.artalk-list-read-more:hover, .artalk-editor-plug-emoticons .artalk-emoticons-types>span.active, .artalk-editor-plug-emoticons .artalk-emoticons-types>span:hover,.artalk-editor-plug-emoticons .artalk-emoticons-types,.van-grid-item__content,.navbar .search,.artalk>.artalk-editor>.artalk-editor-textarea-wrap .artalk-editor-textarea,.artalk>.artalk-editor,.van-search__content,.search-hot .list span,.artalk-comment-wrap>.artalk-comment>.artalk-comment-main>.artalk-header>span.artalk-ua,.search-history .history-list li{
+.artalk-editor-plug-emoticons .artalk-emoticons-types>span.active, .artalk-editor-plug-emoticons .artalk-emoticons-types>span:hover,.artalk-editor-plug-emoticons .artalk-emoticons-types,.van-grid-item__content,.navbar .search,.artalk>.artalk-editor>.artalk-editor-textarea-wrap .artalk-editor-textarea,.artalk>.artalk-editor,.van-search__content,.search-hot .list span,.artalk-comment-wrap>.artalk-comment>.artalk-comment-main>.artalk-header>span.artalk-ua,.search-history .history-list li{
     background-color:#1e1e1e;
 }
 .artalk>.artalk-editor>.artalk-editor-bottom .artalk-send-btn{
