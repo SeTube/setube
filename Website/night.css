@@ -1,5 +1,4 @@
 body,
-.artalk > .artalk-list > .artalk-list-body > .artalk-list-read-more:hover,
 .artalk-error-layer,
 .artalk-layer-dialog-wrap,
 .artalk-loading,
@@ -22,15 +21,21 @@ p {
   span.router-link-active:first-child:before,
 .van-grid-item [class*="van-hairline"]::after,
 .van-hairline--top::after,
-.artalk > .artalk-editor,
+.artalk 
+  > .artalk-editor,
 .ep-list-pre-wrapper [class*="van-hairline"]::after,
 .filter-item.van-hairline--bottom[class*="van-hairline"]::after,
-.artalk > .artalk-list > .artalk-list-body > .artalk-list-read-more {
+.artalk 
+  > .artalk-list 
+  > .artalk-list-body 
+  > .artalk-list-read-more {
   border: 0;
 }
 .van-cell::after,
 .navbar,
-.artalk > .artalk-list > .artalk-list-header,
+.artalk 
+  > .artalk-list 
+  > .artalk-list-header,
 .artalk-comment-wrap {
   border-bottom: 0;
 }
@@ -83,13 +88,18 @@ p {
 .van-tabs__line {
   background-color: #bd5977;
 }
-.artalk-editor-plug-emoticons .artalk-emoticons-types > span.active,
-.artalk-editor-plug-emoticons .artalk-emoticons-types > span:hover,
+.artalk-editor-plug-emoticons .artalk-emoticons-types 
+  > span.active,
+.artalk-editor-plug-emoticons .artalk-emoticons-types 
+  > span:hover,
 .artalk-editor-plug-emoticons .artalk-emoticons-types,
 .van-grid-item__content,
 .navbar .search,
-.artalk > .artalk-editor > .artalk-editor-textarea-wrap .artalk-editor-textarea,
-.artalk > .artalk-editor,
+.artalk 
+  > .artalk-editor 
+  > .artalk-editor-textarea-wrap .artalk-editor-textarea,
+.artalk 
+  > .artalk-editor,
 .van-search__content,
 .search-hot .list span,
 .artalk-comment-wrap
@@ -100,7 +110,9 @@ p {
 .search-history .history-list li {
   background-color: #1e1e1e;
 }
-.artalk > .artalk-editor > .artalk-editor-bottom .artalk-send-btn {
+.artalk 
+  > .artalk-editor 
+  > .artalk-editor-bottom .artalk-send-btn {
   background: #20aae2;
 }
 .artalk
@@ -108,7 +120,9 @@ p {
   > .artalk-list-header
   .artalk-right-action
   > span.artalk-on,
-.artalk > .artalk-list > .artalk-list-footer .artalk-copyright {
+.artalk 
+  > .artalk-list 
+  > .artalk-list-footer .artalk-copyright {
   color: #20aae2;
 }
 .filter-box .filter-item .filter-box--type {
@@ -158,10 +172,14 @@ p {
 .van-dialog,
 .van-button--default,
 .van-search,
-.van-search__action:active {
+.van-search__action:active,
+.artalk 
+  > .artalk-list 
+  > .artalk-list-body 
+  > .artalk-list-read-more:hover {
   background: #141414;
 }
 
-.navbar .search{
+.navbar .search {
   height: 50px;
 }
