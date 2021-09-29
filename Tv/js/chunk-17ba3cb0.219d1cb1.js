@@ -346,7 +346,7 @@
                                 message: "加载中...",
                                 forbidClick: !0,
                                 loadingType: "spinner"
-                            }), l.a.get("https://setube.cc/v3/getRank?cate=".concat(t.cate), {
+                            }), l.a.get("https://se-tu.be/v3/getRank?cate=".concat(t.cate), {
                                 timeout: 1e4
                             }).then((function (a) {
                                 t.$api.Toast.clear(), t.isLoading = !1, t.movieList = a.data.movie, t.teleplayList = a.data.teleplay, t.showList = a.data.show, t.cartoonList = a.data.cartoon

@@ -265,7 +265,7 @@
                         },
                         fetchData: function () {
                             var t = this;
-                            r.a.get("https://setube.cc/v3/getRecommend", {
+                            r.a.get("https://se-tu.be/v3/getRecommend", {
                                 timeout: 1e4,
                                 params: {
                                     page: t.page

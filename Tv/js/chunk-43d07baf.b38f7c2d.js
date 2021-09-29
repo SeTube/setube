@@ -1411,7 +1411,7 @@
                                 message: "加载中...",
                                 forbidClick: !0,
                                 loadingType: "spinner"
-                            }), c.a.get("https://setube.cc/v3/getDetail?id=".concat(t.id, "&u=").concat(t.u, "&p=").concat(t.p), {
+                            }), c.a.get("https://se-tu.be/v3/getDetail?id=".concat(t.id, "&u=").concat(t.u, "&p=").concat(t.p), {
                                 timeout: 1e4
                             }).then((function (e) {
                                 t.$api.Toast.clear(), t.vod = e.data.vod, t.qty = e.data.count, t.page = 1, t.domain = e.data.domain, t.shareLink = e.data.shareLink, t.commentList = e.data.comments;
