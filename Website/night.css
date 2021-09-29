@@ -179,7 +179,12 @@ p {
 .van-search__action:active {
   background: #141414;
 }
-
 .navbar .search {
   height: 50px;
+}
+.box-comment {
+    background: #030303;
+}
+.artalk-editor-plug-emoticons .artalk-emoticons-types {
+    bottom: -1px;
 }
