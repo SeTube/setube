@@ -230,7 +230,7 @@
                             message: "加载中...",
                             forbidClick: !0,
                             loadingType: "spinner"
-                        }), f.a.get("https://se-tu.be/v3/getUpdate", {
+                        }), f.a.get("/v3/getUpdate", {
                             timeout: 1e4
                         }).then((function (e) {
                             t.isLoading = !1, t.$api.Toast.clear(), t.vodList = e.data.data

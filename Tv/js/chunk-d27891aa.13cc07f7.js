@@ -1089,7 +1089,7 @@
                                 message: "加载中...",
                                 forbidClick: !0,
                                 loadingType: "spinner"
-                            }), t.score = 0, c.a.get("https://se-tu.be/v3/getDetail?id=".concat(t.id), {
+                            }), t.score = 0, c.a.get("/v3/getDetail?id=".concat(t.id), {
                                 timeout: 1e4
                             }).then((function (e) {
                                 t.isLoading = !1, t.$api.Toast.clear(), t.vod = e.data.vod, t.score = t.$cookies.get("score-".concat(t.id)), t.domain = e.data.domain, t.shareLink = e.data.shareLink;
