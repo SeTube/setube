@@ -5,74 +5,74 @@ h2,h5,p{
     color:#cccccc!important;
 }
 .van-tab,.detail-box .videos-description,.van-tabbar-item{
-   color:#626262!important; 
+   color:#626262; 
 }
 .g-box-title.van-hairline--bottom[class*=van-hairline]::after,.season-slideer-wrapper .season-slider-list span.router-link-active:first-child:before,.van-grid-item [class*=van-hairline]::after,.van-hairline--top::after,.artalk>.artalk-editor,.ep-list-pre-wrapper [class*=van-hairline]::after,.filter-item.van-hairline--bottom[class*=van-hairline]::after,.artalk>.artalk-list>.artalk-list-body>.artalk-list-read-more{
-    border:0!important;
+    border:0;
 }
 .van-cell::after,.navbar,.artalk>.artalk-list>.artalk-list-header,.artalk-comment-wrap{
-    border-bottom:0!important;
+    border-bottom:0;
 }
 .artalk>.artalk-editor>.artalk-editor-bottom{
-    border-top:0!important;
+    border-top:0;
 }
 .van-cell .update,.setube.icon-game{
-    color:#2d698a!important;
+    color:#2d698a;
 }
 .van-swipe__indicator--active,.van-cell .rank.top10{
-    background-color:#2d698a!important;
+    background-color:#2d698a;
 }
 .season-slideer-wrapper .season-slider-list span.router-link-active:first-child:before{
-    background-color:transparent!important;
+    background-color:transparent;
 }
 .artalk>.artalk-editor>.artalk-editor-bottom .artalk-send-btn,.van-cell .rank.top10,.navbar i,.van-tab--active,.van-cell__value--alone,.van-cell,.van-grid-item__text,.filter-box--type,.season-slideer-wrapper .season-slider-list span,.slider-title,.van-tag,.detail-box .videos-description .more-info .c-more-link,.artalk *, .artalk-layer-wrap *,.van-button--default,.van-dialog,.van-search__action,.search-hot .list span,.video-list .video-item-tag,.search-history .history-list li{
-    color:#cccccc!important;
+    color:#cccccc;
 }
 .van-dialog__confirm,.router-link-exact-active {
-    color: #bd5977!important;
+    color: #bd5977;
 }
 .van-tabs__line{
-    background-color:#bd5977!important;
+    background-color:#bd5977;
 }
 .artalk-editor-plug-emoticons .artalk-emoticons-types>span.active, .artalk-editor-plug-emoticons .artalk-emoticons-types>span:hover,.artalk-editor-plug-emoticons .artalk-emoticons-types,.van-grid-item__content,.navbar .search,.artalk>.artalk-editor>.artalk-editor-textarea-wrap .artalk-editor-textarea,.artalk>.artalk-editor,.van-search__content,.search-hot .list span,.artalk-comment-wrap>.artalk-comment>.artalk-comment-main>.artalk-header>span.artalk-ua,.search-history .history-list li{
-    background-color:#1e1e1e!important;
+    background-color:#1e1e1e;
 }
 .artalk>.artalk-editor>.artalk-editor-bottom .artalk-send-btn{
-    background:#20aae2!important;
+    background:#20aae2
 }
 .artalk>.artalk-list>.artalk-list-header .artalk-right-action>span.artalk-on,.artalk>.artalk-list>.artalk-list-footer .artalk-copyright{
-    color:#20aae2!important;
+    color:#20aae2;
 }
 .filter-box .filter-item .filter-box--type{
-    display: none!important;
+    display: none;
 }
 .artalk>.artalk-editor>.artalk-editor-header input:not(:last-child){
-    border-right: 1px solid var(--at-color-border)!important;
+    border-right: 1px solid var(--at-color-border);
 }
 .artalk-comment-wrap>.artalk-comment>.artalk-avatar img{
-    border-radius: 50px!important;
+    border-radius: 50px;
 }
 .season-slideer-wrapper .season-slider-list span,.season-slideer-wrapper .season-slider-list span:last-child {
-    border-radius: 4px!important;
-    background-color: transparent!important;
-    border-color: transparent!important;
-    border:1px solid #626262!important;
+    border-radius: 4px;
+    background-color: transparent;
+    border-color: transparent;
+    border:1px solid #626262;
 }
 .season-slideer-wrapper .season-slider-list span:first-child::before{
-    border:1px solid #626262!important;
-    border-right: none!important;
+    border:1px solid #626262;
+    border-right: none;
 }
 .season-slideer-wrapper .season-slider-list span.router-link-active {
-    background-color: transparent!important;
-    border-color: transparent!important;
-    border:1px solid #bd5977!important;
-    color: #bd5977!important;
+    background-color: transparent;
+    border-color: transparent;
+    border:1px solid #bd5977;
+    color: #bd5977;
 }
 .filter-item-col .van-tab.van-tab--active .van-tab__text,.artalk>.artalk-list>.artalk-list-body>.artalk-list-read-more>.artalk-text{
-    background-color:#1e1e1e!important;
-    border-radius: 4px!important;
-    padding: 2px 4px 2px 4px!important;
+    background-color:#1e1e1e;
+    border-radius: 4px;
+    padding: 2px 4px 2px 4px;
 }
 .navbar,.van-margin-top,.van-tabs__nav,.van-cell,.van-tabbar,.box-common,.season-slideer-wrapper,.ep-list-pre-wrapper,.van-dialog,.van-button--default,.van-search,.van-search__action:active {
-    background: #141414!important;
+    background: #141414;
 }
