@@ -9,7 +9,7 @@ a {
 .van-tabs__line {
 	background-color:rgb(251,114,153);
 }
-.router-link-exact-active,.filter-box .van-tabs__wrap .van-tab--active .van-tab__text {
+.router-link-exact-active,.filter-box .van-tabs__wrap .van-tab--active .van-tab__text,.van-dialog__confirm, .van-dialog__confirm:active {
 	color:rgb(251,114,153);
 }
 #colophon,#mobile-footer-menu {
