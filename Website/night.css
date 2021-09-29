@@ -184,6 +184,8 @@ p {
 }
 .box-comment {
     background: #030303;
+    margin-bottom: 10px;
+    margin-top: 20px;
 }
 .artalk-editor-plug-emoticons .artalk-emoticons-types {
     bottom: -1px;
