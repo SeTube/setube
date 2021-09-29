@@ -13,10 +13,10 @@ h2,h5,p{
 .van-tab,.detail-box .videos-description,.van-tabbar-item{
    color:#626262; 
 }
-.g-box-title.van-hairline--bottom[class*=van-hairline]::after,.season-slideer-wrapper .season-slider-list span.router-link-active:first-child:before,.van-grid-item [class*=van-hairline]::after,.van-hairline--top::after,.artalk>.artalk-editor,.ep-list-pre-wrapper [class*=van-hairline]::after,.filter-item.van-hairline--bottom[class*=van-hairline]::after{
+.g-box-title.van-hairline--bottom[class*=van-hairline]::after,.season-slideer-wrapper .season-slider-list span.router-link-active:first-child:before,.van-grid-item [class*=van-hairline]::after,.van-hairline--top::after,.artalk>.artalk-editor,.ep-list-pre-wrapper [class*=van-hairline]::after,.filter-item.van-hairline--bottom[class*=van-hairline]::after,.artalk>.artalk-list>.artalk-list-body>.artalk-list-read-more{
     border:0;
 }
-.van-cell::after{
+.van-cell::after,.navbar,.artalk>.artalk-list>.artalk-list-header,.artalk-comment-wrap{
     border-bottom:0;
 }
 .artalk>.artalk-editor>.artalk-editor-bottom{
@@ -33,7 +33,7 @@ h2,h5,p{
 }
 
 /*文字主色*/
-.artalk>.artalk-editor>.artalk-editor-bottom .artalk-send-btn,.van-cell .rank.top10,.navbar i,.van-tab--active,.van-cell__value--alone,.van-cell,.van-grid-item__text,.filter-box--type,.season-slideer-wrapper .season-slider-list span,.slider-title,.van-tag,.detail-box .videos-description .more-info .c-more-link,.artalk *, .artalk-layer-wrap *,.van-button--default,.van-dialog,.van-search__action,.search-hot .list span,.video-list .video-item-tag{
+.artalk>.artalk-editor>.artalk-editor-bottom .artalk-send-btn,.van-cell .rank.top10,.navbar i,.van-tab--active,.van-cell__value--alone,.van-cell,.van-grid-item__text,.filter-box--type,.season-slideer-wrapper .season-slider-list span,.slider-title,.van-tag,.detail-box .videos-description .more-info .c-more-link,.artalk *, .artalk-layer-wrap *,.van-button--default,.van-dialog,.van-search__action,.search-hot .list span,.video-list .video-item-tag,.search-history .history-list li{
     color:#cccccc;
 }
 .van-dialog__confirm,.router-link-exact-active {
@@ -44,7 +44,7 @@ h2,h5,p{
 }
 
 /*按钮*/
-.artalk-editor-plug-emoticons .artalk-emoticons-types>span.active, .artalk-editor-plug-emoticons .artalk-emoticons-types>span:hover,.artalk-editor-plug-emoticons .artalk-emoticons-types,.van-grid-item__content,.navbar .search,.artalk>.artalk-editor>.artalk-editor-textarea-wrap .artalk-editor-textarea,.artalk>.artalk-editor,.van-search__content,.search-hot .list span,.artalk-comment-wrap>.artalk-comment>.artalk-comment-main>.artalk-header>span.artalk-ua{
+.artalk-editor-plug-emoticons .artalk-emoticons-types>span.active, .artalk-editor-plug-emoticons .artalk-emoticons-types>span:hover,.artalk-editor-plug-emoticons .artalk-emoticons-types,.van-grid-item__content,.navbar .search,.artalk>.artalk-editor>.artalk-editor-textarea-wrap .artalk-editor-textarea,.artalk>.artalk-editor,.van-search__content,.search-hot .list span,.artalk-comment-wrap>.artalk-comment>.artalk-comment-main>.artalk-header>span.artalk-ua,.search-history .history-list li{
     background-color:#1e1e1e;
 }
 .artalk>.artalk-editor>.artalk-editor-bottom .artalk-send-btn{
@@ -58,6 +58,9 @@ h2,h5,p{
 }
 .artalk>.artalk-editor>.artalk-editor-header input:not(:last-child){
     border-right: 1px solid var(--at-color-border);
+}
+.artalk-comment-wrap>.artalk-comment>.artalk-avatar img{
+    border-radius: 50px;
 }
 /*按钮2 #bd5977*/
 .season-slideer-wrapper .season-slider-list span,.season-slideer-wrapper .season-slider-list span:last-child {
@@ -76,7 +79,7 @@ h2,h5,p{
     border:1px solid #bd5977;
     color: #bd5977;
 }
-.filter-item-col .van-tab.van-tab--active .van-tab__text{
+.filter-item-col .van-tab.van-tab--active .van-tab__text,.artalk>.artalk-list>.artalk-list-body>.artalk-list-read-more>.artalk-text{
     background-color:#1e1e1e;
     border-radius: 4px;
     padding: 2px 4px 2px 4px;
