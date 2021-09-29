@@ -190,3 +190,6 @@ p {
 .artalk-editor-plug-emoticons .artalk-emoticons-types {
     bottom: -1px;
 }
+.artalk-editor-plug-emoticons .artalk-emoticons-list-wrap .artalk-emoticons-list .artalk-emoticons-item:hover {
+    background: none;
+}
