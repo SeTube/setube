@@ -2,8 +2,12 @@ body,
 .artalk-error-layer,
 .artalk-layer-dialog-wrap,
 .artalk-loading,
-.full-layer {
-  background-color: #030303 !important;
+.full-layer,
+.artalk 
+  > .artalk-list 
+  > .artalk-list-body 
+  > .artalk-list-read-more:hover {
+    background-color: #030303 !important;
 }
 h2,
 h5,
@@ -172,11 +176,7 @@ p {
 .van-dialog,
 .van-button--default,
 .van-search,
-.van-search__action:active,
-.artalk 
-  > .artalk-list 
-  > .artalk-list-body 
-  > .artalk-list-read-more:hover {
+.van-search__action:active {
   background: #141414;
 }
 
