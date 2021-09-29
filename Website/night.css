@@ -1,4 +1,4 @@
-body,.artalk>.artalk-list>.artalk-list-body>.artalk-list-read-more:hover {
+body,.artalk>.artalk-list>.artalk-list-body>.artalk-list-read-more:hover,.artalk-error-layer, .artalk-layer-dialog-wrap, .artalk-loading, .full-layer {
    background-color: #030303 !important;
 }
 h2,h5,p{
