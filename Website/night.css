@@ -176,7 +176,8 @@ p {
 .van-dialog,
 .van-button--default,
 .van-search,
-.van-search__action:active {
+.van-search__action:active,
+.van-cell--clickable:active {
   background: #141414;
 }
 .navbar .search {
