@@ -59,7 +59,7 @@ input[type="text"] {
 }
 .navbar .search {
   background-color: #f4f4f4;
-  height: 7.5vw;
+  height: 50px;
   width: 45vw;
   border-radius: 4px;
   position: relative;
@@ -147,6 +147,7 @@ input[type="text"] {
   flex: none;
   font-size: 14px;
   text-align: right;
+  display: none;
 }
 .filter-item .filter-item-col {
   flex: 1;
