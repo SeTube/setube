@@ -543,7 +543,7 @@ input[type="text"] {
 }
 
 .video-recommend-box .video-list .van-grid-item {
-  flex-basis: 25%;
+  flex-basis: 33.3333333333%;
 }
 
 .van-clearfix .van-grid-item__content {
@@ -1006,7 +1006,11 @@ input[type="text"] {
     left: auto;
   }
 }
-
+@media (max-width: 360px) {
+  .van-image img {
+    width: 74px;
+  }
+}
 @media (max-width: 768px) {
   .site-header {
     height: 77px;
@@ -1017,7 +1021,7 @@ input[type="text"] {
   }
 
   .van-image img {
-    width: 80px;
+    width: 93px;
   }
 
   .van-margin-top .video-list .van-grid-item .van-image img {
