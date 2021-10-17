@@ -993,10 +993,10 @@ input[type="text"] {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .wrapper,
   .van-tabbar {
-    width: 1000px;
+    width: 1024px;
     margin: 0 auto;
   }
 
@@ -1006,13 +1006,15 @@ input[type="text"] {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .wrapper,
   .van-tabbar {
-    width: 1000px;
+    width: 100%;
     margin: 0 auto;
   }
+}
 
+@media (max-width: 768px) {
   .site-header {
     height: 77px;
   }
