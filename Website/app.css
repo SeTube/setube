@@ -202,7 +202,7 @@ input[type="text"] {
 }
 
 .detail-box .video-thumb {
-  max-width: 188px;
+  max-width: 150px;
 }
 
 .detail-box .video-thumb-wrapper {
@@ -244,7 +244,7 @@ input[type="text"] {
 .detail-box .video-detail h5,
 .detail-box .video-detail p,
 .video-list .video-item-title {
-  overflow: hidden;
+  overflow: auto;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 1;
@@ -256,7 +256,7 @@ input[type="text"] {
   font-size: 14px;
   color: #f4f5f7;
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 3.5px;
 }
 
 .detail-box .videos-description {
@@ -997,7 +997,7 @@ input[type="text"] {
 
   .wrapper,
   .van-tabbar {
-    width: 1000px;
+    width: 100%;
     margin: 0 auto;
   }
 
