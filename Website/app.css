@@ -244,7 +244,7 @@ input[type="text"] {
 .detail-box .video-detail h5,
 .detail-box .video-detail p,
 .video-list .video-item-title {
-  overflow: auto;
+  overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 1;
@@ -256,7 +256,7 @@ input[type="text"] {
   font-size: 14px;
   color: #f4f5f7;
   margin-top: 0;
-  margin-bottom: 3.5px;
+  margin-bottom: 4px;
 }
 
 .detail-box .videos-description {
@@ -994,10 +994,9 @@ input[type="text"] {
 }
 
 @media (min-width: 768px) {
-
   .wrapper,
   .van-tabbar {
-    width: 100%;
+    width: 1000px;
     margin: 0 auto;
   }
 
@@ -1008,6 +1007,12 @@ input[type="text"] {
 }
 
 @media (max-width: 768px) {
+  .wrapper,
+  .van-tabbar {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
   .site-header {
     height: 77px;
   }
