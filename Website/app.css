@@ -255,7 +255,9 @@ input[type="text"] {
 .detail-box .video-detail p {
   font-size: 14px;
   color: #f4f5f7;
-  margin: 7px 0 0 0;
+  padding: 3px 0px 0px 0px;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 .detail-box .videos-description {
