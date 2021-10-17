@@ -209,7 +209,7 @@ input[type="text"] {
 }
 
 .detail-box .video-thumb {
-  max-width: 160px;
+  max-width: 188px;
 }
 
 .detail-box .video-thumb-wrapper {
@@ -1017,7 +1017,7 @@ input[type="text"] {
   }
 
   .van-image img {
-    width: 98px;
+    width: 80px;
   }
 
   .van-margin-top .video-list .van-grid-item .van-image img {
