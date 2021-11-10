@@ -882,18 +882,12 @@ input[type="text"] {
 }
 
 /* 图标 */
-.setube.icon-game,
-.setube.icon-link {
+.setube.icon-game {
   color: #20aae2;
   animation: move 3s 0s infinite;
   -webkit-animation: move 3s 0s infinite;
   transform-origin: bottom;
   -webkit-transform-origin: bottom;
-  display: none;
-}
-
-.setube.icon-link {
-  display: block;
 }
 
 [class*=van-hairline]::after {
@@ -1043,14 +1037,6 @@ input[type="text"] {
 
   .van-swipe__indicators {
     bottom: 10px;
-  }
-
-  .setube.icon-game {
-    display: block;
-  }
-
-  .setube.icon-link {
-    display: none;
   }
 }
 
